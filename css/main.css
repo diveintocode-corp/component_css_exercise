@@ -243,8 +243,12 @@ body {
   padding-bottom: 50px;
 }
 
-.menu_item {
+
+.menu_item_recommended{
   width: 49%;
+
+}
+.menu_item {
   display: flex;
   flex-direction: row-reverse;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
