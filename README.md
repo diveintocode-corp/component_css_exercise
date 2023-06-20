@@ -1,6 +1,21 @@
 # 6/20
 branch作成
 
+
+```
+/* メニューアイテムコンポーネント */
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu_list_recommended {
+  /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
+  padding-bottom: 50px;
+}
+```
+
 # 6/9
 ## git hub ssh key の再作成と登録
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
