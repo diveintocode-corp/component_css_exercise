@@ -1,5 +1,14 @@
 # 6/20
-branch作成
+## githubのブランチの運用
+https://docs.github.com/ja/get-started/quickstart/github-flow
+https://qiita.com/tatane616/items/aec00cdc1b659761cf88
+
+1. githubのbranchesからnewBranchでブランチを作成
+2. リモートリポジトリの一覧を取得: `git fetch` 
+3. ローカルにチェックアウト: `git checkout -b develop origin/develop`
+4. ステータスを確認: `git status`
+
+git checkout -b develop origin/main
 
 
 ```
