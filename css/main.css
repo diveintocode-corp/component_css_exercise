@@ -280,8 +280,13 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
-.pancake_menu_item{
+.pancake_flex{
   display :flex ;
+}
+.pancake_menu_item{
+  width:45%;
+  padding:10px;
+  box-shadow: none;
 }
 
 /* ボタンコンポーネント */
