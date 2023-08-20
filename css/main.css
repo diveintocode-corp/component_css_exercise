@@ -229,7 +229,10 @@ body {
   background: rgba(83,71,65,.5);
   padding: 20px;
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
+
 
 /* メニューアイテムコンポーネント */
 .menu_list {
@@ -237,6 +240,14 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.new_menu{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column; /* Cambio aquí */
+  gap: 20px;
+}
+
 
 .menu_list_recommended {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
@@ -250,6 +261,8 @@ body {
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
 }
+
+
 .menu_item_content {
   width: 45%;
   padding: 10px;
