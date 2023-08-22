@@ -238,6 +238,13 @@ body {
   flex-wrap: wrap;
 }
 
+.menu_list_column{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+}
+
 .menu_list_recommended {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
   padding-bottom: 50px;
@@ -250,6 +257,11 @@ body {
   box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
 }
+
+.menu_item_column{
+  width: 100%;
+}
+
 .menu_item_content {
   width: 45%;
   padding: 10px;
