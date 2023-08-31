@@ -225,10 +225,11 @@ body {
   margin-bottom: 30px;
 }
 
-.pancake_menu {
-  background: rgba(83,71,65,.5);
-  padding: 20px;
-  margin-top: 50px;
+.pancake_menu .menu_list {
+  display: flex;
+  flex-direction: column; /* Cambiar a column para poner los elementos uno debajo del otro */
+  gap: 20px; /* Espacio entre los elementos del menú */
+  align-items: center; /* Centrar los elementos horizontalmente */
 }
 
 /* メニューアイテムコンポーネント */
