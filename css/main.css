@@ -230,6 +230,11 @@ body {
   padding: 20px;
   margin-top: 50px;
 }
+.menuPancake{
+  width: 100%;
+  /*margin: 20px 0; /* Margen entre elementos */
+  text-align: center; /* Centra el contenido del elemento */
+}
 
 /* メニューアイテムコンポーネント */
 .menu_list {
@@ -241,6 +246,11 @@ body {
 .menu_list_recommended {
   /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
   padding-bottom: 50px;
+}
+.menuPancakeList{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*para centrar elementos horizontalmente */
 }
 
 .menu_item {
@@ -268,7 +278,11 @@ body {
   font-size: 18px;
   text-align: right;
 }
-
+.menuPancake{
+  width: 100%;
+  /*margin: 20px 0; /* Margen entre elementos */
+  text-align: center; /* Centra el contenido del elemento */
+}
 .menu_item_title {
   font-size: 18px;
   font-family: 'Noto Serif JP', serif;
