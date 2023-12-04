@@ -1,4 +1,4 @@
-@import 'bulma/css/bulma.css';
+@import "bulma/css/bulma.css";
 html {
   height: 100%;
 }
@@ -11,9 +11,13 @@ body {
   text-align: center;
 }
 
+.pancake_menu .menu_item {
+  width: 100%;
+}
+
 /* header */
 .header_nav {
-  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  background: linear-gradient(90deg, #fff 20%, rgba(0, 0, 0, 0.6) 60%);
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -27,7 +31,7 @@ body {
   display: flex;
   align-items: center;
 }
-.logo img{
+.logo img {
   width: 100%;
 }
 .global_nav {
@@ -87,9 +91,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
 }
-.key h1{
+.key h1 {
   font-size: 2.5rem;
 }
 
@@ -110,7 +114,7 @@ body {
   padding: 50px 10% 30px;
 }
 .section_title {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -127,7 +131,7 @@ body {
   width: 100%;
   padding-top: 56.25%;
 }
-.frame_child{
+.frame_child {
   position: absolute;
   top: 0;
   right: 0;
@@ -142,7 +146,7 @@ body {
 }
 .menu_title {
   display: inline-block;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   text-align: center;
   font-size: 1.5rem;
   color: #42210b;
@@ -170,7 +174,6 @@ body {
   padding: 10px;
 }
 
-
 /* メニューページ */
 .menu_key {
   height: 100px;
@@ -190,7 +193,7 @@ body {
   width: 200px;
 }
 .side_menu_title {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 25px;
   padding-left: 10px;
 }
@@ -201,11 +204,11 @@ body {
   text-decoration: none;
 }
 .side_menu_item:hover {
-  background: rgba(83,71,65,.3);
+  background: rgba(83, 71, 65, 0.3);
 }
 .side_ad {
   color: #fff;
-  background: rgba(83,71,65,.7);
+  background: rgba(83, 71, 65, 0.7);
   padding: 20px;
   margin: 30px 0;
 }
@@ -217,16 +220,16 @@ body {
   object-fit: cover;
 }
 .menu_name {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
 }
 .menu_price {
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
   font-size: 20px;
   margin-bottom: 30px;
 }
 
 .pancake_menu {
-  background: rgba(83,71,65,.5);
+  background: rgba(83, 71, 65, 0.5);
   padding: 20px;
   margin-top: 50px;
 }
@@ -247,7 +250,7 @@ body {
   width: 49%;
   display: flex;
   flex-direction: row-reverse;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 20px;
 }
 .menu_item_content {
@@ -271,7 +274,7 @@ body {
 
 .menu_item_title {
   font-size: 18px;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Noto Serif JP", serif;
 }
 
 /* ボタンコンポーネント */
@@ -281,9 +284,9 @@ body {
   border-radius: 5px;
 }
 .btn-detail {
-  background:#2e58a6;
+  background: #2e58a6;
   color: #fff;
 }
 .btn-disabled {
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
