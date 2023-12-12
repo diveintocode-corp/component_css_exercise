@@ -231,6 +231,10 @@ body {
   margin-top: 50px;
 }
 
+.pancake_menu .menu_item {
+  width: 100%;
+}
+
 /* メニューアイテムコンポーネント */
 .menu_list {
   display: flex;
