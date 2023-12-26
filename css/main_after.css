@@ -1,4 +1,4 @@
-
+@import 'bulma/css/bulma.css';
 html {
   height: 100%;
 }
@@ -7,10 +7,10 @@ body {
   padding-bottom: 75px;
   min-height: 100%;
 }
-
 .center {
   text-align: center;
 }
+
 /* header */
 .header_nav {
   background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
@@ -149,40 +149,7 @@ body {
   border-bottom: solid #42210b 1px;
   margin-bottom: 20px;
 }
-.recommended_menu_list {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-bottom: 50px;
-}
-.recommended_menu_item {
-  width: 49%;
-  display: flex;
-  flex-direction: row-reverse;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
-}
-.menu_item_title {
-  font-size: 18px;
-  font-family: 'Noto Serif JP', serif;
-}
-.recommended_menu_content {
-  width: 45%;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background: #fff;
-}
-.recommended_menu_image {
-  width: 55%;
-  object-fit: cover;
-  height: 300px;
-}
-.recommended_menu_price {
-  color: #42210b;
-  font-size: 18px;
-  text-align: right;
-}
+
 .coffee_menu {
   background: #fff;
   padding: 20px;
@@ -202,6 +169,7 @@ body {
   width: 80%;
   padding: 10px;
 }
+
 
 /* メニューページ */
 .menu_key {
@@ -257,32 +225,31 @@ body {
   margin-bottom: 30px;
 }
 
-/* パンケーキメニュー */
 .pancake_menu {
-  background: rgba(83, 71, 65, .5);
+  background: rgba(83,71,65,.5);
   padding: 20px;
   margin-top: 50px;
 }
 
-.pancake_menu .menu_item {
-  width: 100%;
-}
-
-
+/* メニューアイテムコンポーネント */
 .menu_list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
+.menu_list_recommended {
+  /* トップページのメニューリストには別途paddingの設定（マルチクラス） */
+  padding-bottom: 50px;
+}
+
 .menu_item {
   width: 49%;
   display: flex;
   flex-direction: row-reverse;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
   margin-bottom: 20px;
 }
-
 .menu_item_content {
   width: 45%;
   padding: 10px;
@@ -291,11 +258,15 @@ body {
   justify-content: space-between;
   background: #fff;
 }
-
 .menu_item_image {
   width: 55%;
   object-fit: cover;
   height: 300px;
+}
+.menu_item_price {
+  color: #42210b;
+  font-size: 18px;
+  text-align: right;
 }
 
 .menu_item_title {
@@ -303,38 +274,16 @@ body {
   font-family: 'Noto Serif JP', serif;
 }
 
-.menu_item_price {
-  color: #42210b;
-  font-size: 18px;
-  text-align: right;
-}
-
-.menu_item_btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background: #2e58a6;
-  color: #fff;
-}
-
-.menu_item_disable_btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.btn { 
+/* ボタンコンポーネント */
+.btn {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
 }
-
 .btn-detail {
-  background-color: #2e58a6;
+  background:#2e58a6;
   color: #fff;
 }
-
 .btn-disabled {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0,0,0,0.3);
 }

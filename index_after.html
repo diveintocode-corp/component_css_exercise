@@ -2,20 +2,19 @@
 <html>
   <head>
     <title>DIC cafe</title>
-    <meta charset="UTF-8">
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/main_after.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <nav class="header_nav">
-        <a href="index.html" class="logo"><img src="images/sample_logo_k.png"></a>
+        <a href="index_after.html" class="logo"><img src="images/sample_logo_k.png"></a>
         <ul class="global_nav">
-          <a href="index.html" class="global_nav_item">
+          <a href="index_after.html" class="global_nav_item">
             <li>Home</li>
           </a>
-          <a href="menu.html" class="global_nav_item">
+          <a href="menu_after.html" class="global_nav_item">
             <li>Menu</li>
           </a>
           <a href="contact.html" class="global_nav_item">
@@ -49,33 +48,30 @@
         <div class="section_title">
           <h1>MENU</h1>
         </div>
-
-        
         <section>
           <div class="center">
             <h1 class="menu_title">Recommended menu</h1>
           </div>
-          <ul class="recommended_menu_list">
-            <li class="recommended_menu_item">
-              <div class="recommended_menu_content">
+          <!-- menu_listクラスに共通化しマルチクラス化 -->
+          <ul class="menu_list menu_list_recommended">
+            <li class="menu_item">
+              <div class="menu_item_content">
                 <h2 class="menu_item_title">ブルーベリーパンケーキ</h2>
                 <p>フレッシュなブルーベリーをトッピングしたパンケーキです</p>
-                <p class="recommended_menu_price">¥1,200</p>
+                <p class="menu_item_price">¥1,200</p>
               </div>
-              <img src="images/sample_pancake1.jpg" class="recommended_menu_image">
+              <img src="images/sample_pancake1.jpg" class="menu_item_image">
             </li>
-            <li class="recommended_menu_item">
-              <div class="recommended_menu_content">
+            <li class="menu_item">
+              <div class="menu_item_content">
                 <h2 class="menu_item_title">ストロベリーパンケーキ</h2>
                 <p>イチゴとはちみつのコラボレーションをお楽しみください</p>
-                <p class="recommended_menu_price">¥1,300</p>
+                <p class="menu_item_price">¥1,300</p>
               </div>
-              <img src="images/sample_pancake2.jpg" class="recommended_menu_image">
+              <img src="images/sample_pancake2.jpg" class="menu_item_image">
             </li>
           </ul>
         </section>
-
-
         <section>
           <div class="center">
             <h1 class="menu_title">Coffee menu</h1>
@@ -136,16 +132,16 @@
     <footer class="footer">
       <nav>
         <ul class="footer_nav">
-          <a href="index.html" class="footer_nav_item">
+          <a href="index_after.html" class="footer_nav_item">
             <li>Home</li>
           </a>
-          <a href="menu.html" class="footer_nav_item">
+          <a href="menu_after.html" class="footer_nav_item">
             <li>Menu</li>
           </a>
           <a href="contact.html" class="footer_nav_item">
             <li>Contact</li>
           </a>
-          <a href="index.html" class="footer_nav_item">
+          <a href="index_after.html" class="footer_nav_item">
             <li>
               <img src="images/sample_logo_w.png" class="footer_logo">
             </li>
