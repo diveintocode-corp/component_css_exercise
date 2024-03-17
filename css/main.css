@@ -243,6 +243,14 @@ body {
   padding-bottom: 50px;
 }
 
+.pancake_menu .menu_list{
+  flex-direction: column;
+}
+
+.pancake_menu .menu_list .menu_item{
+  width: auto;
+}
+
 .menu_item {
   width: 49%;
   display: flex;
