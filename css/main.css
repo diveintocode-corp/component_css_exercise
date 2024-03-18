@@ -287,3 +287,13 @@ body {
 .btn-disabled {
   background: rgba(0,0,0,0.3);
 }
+
+/* Ajustamos la regla para que cada elemento del menú pancake se muestre en una fila */
+.menu_item {
+  width: 100%; /* Cambiamos el ancho al 100% */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+
+
+
