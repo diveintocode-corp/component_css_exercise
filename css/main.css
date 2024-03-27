@@ -149,6 +149,15 @@ body {
   border-bottom: solid #42210b 1px;
   margin-bottom: 20px;
 }
+.menu_lista_pankakes {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 20px;
+}
+
+.pancake_menu .menu_item {
+  width: 100%;
+}
 
 .coffee_menu {
   background: #fff;
